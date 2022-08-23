@@ -70,5 +70,10 @@ body{
 .image_box{
   float: right;
   border-radius: 0 10px 10px 0;
-  background: linear-gradient(hsla(277, 100%, 28%, 0.418), hsla(277, 100%, 28%, 0.418)), url(../images/image-header-desktop.jpg);
+  /* background: linear-gradient(hsla(277, 100%, 28%, 0.418), hsla(277, 100%, 28%, 0.418)), url(../images/image-header-desktop.jpg); */
+  background-color: var(--Soft-violet);
+}
+.image_box img{
+  mix-blend-mode: multiply;
+  opacity: 75%;
 }
